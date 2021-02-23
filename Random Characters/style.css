@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #474747;    
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.container{
+    width: 80%;
+    min-height: 95vh;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    background-color: #606775;
+}
+
+h1{
+    font-size: 35px;
+}
+
+#btn{
+    margin: 20px auto;
+    width: 150px;
+    padding: 5px;
+    background-color: #7cf8f8;
+    color: #354d81;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 18px;
+}
+
+#btn:hover{
+    background-color: #376fe9;
+    color: #7cf8f8;
+    box-shadow: 0 0 10px rgba(0, 248, 248, 0.9);
+}
+
+h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.img-cha{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url('https://modeltech.co.za/wp-content/uploads/2019/03/Rev05699-Black-Pearl-8.jpg');
+    transition: .4s;    
+}
+
+.img-cha:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+}
+
+.topic {
+    margin: 20px auto;
+}
+
+.history{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
