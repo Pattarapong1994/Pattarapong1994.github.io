@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header-container">
+        <h1>Flower and Tree</h1>
+    </header>
+
+    <div class="container">
+<!-- Slideshow container -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1/5</div>
+                <img src="img/img1.jpg">
+                <div class="text">Dandelion</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2/5</div>
+                <img src="img/img2.jpg">
+                <div class="text">Cactus</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3/5</div>
+                <img src="img/img3.jpg">
+                <div class="text">Orchid</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4/5</div>
+                <img src="img/img4.jpg">
+                <div class="text">Sakura</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5/5</div>
+                <img src="img/img5.jpg">
+                <div class="text">Sunflower</div>
+            </div>
+
+<!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(+1)">&#10095;</a>
+        </div>
+        <br>
+
+<!-- The dots/circles -->
+        <div class="dot-circle-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+<!-- Content -->
+        <section class="content-container">
+            <h2>Test</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio doloremque praesentium nesciunt reiciendis architecto culpa quas vitae, nihil expedita ut perferendis dignissimos suscipit veritatis, eum amet. Reprehenderit aperiam odit quam.
+            Ab animi earum deserunt unde reprehenderit molestiae ipsa voluptatibus ratione facilis. Deleniti veniam quam enim ipsam nostrum iure ducimus officia doloremque. Veritatis modi cupiditate illum sint vero itaque repudiandae incidunt.
+            Molestias nemo pariatur porro autem, impedit perferendis obcaecati enim nisi ipsum inventore? Eum debitis neque tempora? Dignissimos doloremque doloribus ea ipsum quas, ducimus maxime, voluptate minima delectus magnam, vitae aliquid!
+            Quo at vitae saepe unde eos consectetur error fugit hic aliquid! Tenetur deserunt numquam doloremque qui, eos temporibus quam reprehenderit explicabo. Ex dolorem dolores blanditiis temporibus eaque enim est vero!
+            Temporibus quis incidunt excepturi illo deleniti recusandae eos. Sequi itaque consectetur expedita animi, reiciendis quod nobis ut! Molestiae quia modi ut consectetur nisi, soluta, minima, adipisci placeat vitae sapiente veniam?</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Date 31-03.2020</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
