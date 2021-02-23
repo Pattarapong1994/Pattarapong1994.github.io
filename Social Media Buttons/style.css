@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+}
+body{
+    background: linear-gradient(135deg, #f5f7fa 0%,#c3cfe2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+}
+.social-media-container{
+    position: fixed;
+    top: 50%;
+    left: calc(100% - 60px);
+    transform: translateY(-50%);
+    width: 250px;
+    list-style: none;
+    padding: 0;
+}
+.social-media{
+    align-items: center;
+    display: flex;
+    transition: transform .2s ease-in-out;
+}
+.social-media:hover{
+    transform: translateX(calc(-100% + 60px));
+}
+.social-media.blog{
+    background-color: #e17b77;
+}
+.social-media.twitter{
+    background-color: #00aced;
+}
+.social-media.linkedin{
+    background-color: #007bb6;
+}
+.social-media.facebook{
+    background-color: #3b5998;
+}
+.social-media.github{
+    background-color: #333333;
+}
+.social-media i{
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 60px;
+}
+.social-media a{
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
