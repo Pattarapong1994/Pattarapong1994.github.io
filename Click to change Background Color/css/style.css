@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.background-header{
+    height: 93vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.background-header h1, .background-header p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px;
+}
+.btn{
+    border: 2px solid #000 ;
+    cursor: pointer;
+}
+.btn-tomato{
+    background: #ff6347;
+}
+.btn-violet{
+    background: #ee82ee;
+}
+.btn-wheet{
+    background: #f5deb3;
+}
+.btn-yellow{
+    background: #ffff00;
+}
+.btn-yellowgreen{
+    background: #9acd32;
+}
