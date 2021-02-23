@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="card">
+                <div class="card-title">
+                    <h3>tip calculator</h3>
+                </div>
+                <div class="card--body">
+                    <div class="feedback">
+                        your feedback
+                    </div>
+                    <form id="tip-form">
+                        <div class="question">
+                            <h5>how much was your bill ?</h5>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-dollar-sign"></i></span>
+                                <input type="number" id="input-bill" step="0.01">
+                            </div>
+                        </div>
+
+                        <div class="question">
+                            <h5>how many people sharing the bill ?</h5>
+                            <div class="input-group">
+                                <span class="icon"><i class="fas fa-users"></i></span>
+                                <input type="number" id="input-users">
+                            </div>
+                        </div>
+
+                        <div class="question">
+                            <h5>how was your service</h5>
+                            <div class="form-group">
+                                <select id="input-value">
+                                    <option selected value="0">Choose...</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <input type="submit" class="btn submitBtn " value="calculate">
+                    </form>
+                    <div class="loader">
+                        <img src="img/Ellipsis-2s-200px.gif">
+                    </div>
+                    <div class="results">
+                        <h3 class="result-text">tip amount<span> $ </span><span id="tip-amount"></span></h3>
+                        <h3 class="result-text">total amount<span> $ </span><span id="total-amount"></span></h3>
+                        <h3 class="result-text">each person owes<span> $ </span><span id="person-amount"></span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
