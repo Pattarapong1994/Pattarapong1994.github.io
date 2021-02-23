@@ -1,0 +1,59 @@
+body{
+    background: #ddd8d5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+}
+h1,h5{
+    font-weight: 100;
+}
+section{
+    background: #e4e4e6;
+    padding: 6em 3em;
+    margin: 0;
+}
+.hamburger{
+    position: absolute;
+    margin: 50px;  
+    z-index: 2;
+    cursor: pointer;
+}
+.line{
+    width: 50px;
+    height: 6px;
+    background: #333;
+    margin-bottom: 5px;
+}
+.menu{
+    width: 320px;
+    height: 100%;
+    background: #444443;
+    position: fixed;
+    top: 0;
+    left: -320px;
+    transition: left .3s;
+}
+
+.menu-item:first-child{
+    margin-top: 180px;
+}
+.menu-open{
+    left: 0;
+}
+.menu-item{
+    color: #ffffff;
+    width: 100%;
+    padding: 1em 3em;
+    box-sizing: border-box;
+    transition: .2s;
+}
+.menu-item:hover{
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+}
