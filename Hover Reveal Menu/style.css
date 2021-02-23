@@ -1,0 +1,52 @@
+body{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    background: #505050;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+    transform: perspective(800px) scale(1) translateX(0) rotateY(0);
+    transform-style: preserve-3d;
+}
+
+nav{
+    vertical-align: center;
+}
+
+nav ul{
+    padding-left: 65%;
+    line-height: 2;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.front-page{
+    background:#d4d4d4;
+}
+
+body:hover .front-page{
+    transform: perspective(600px) scale(0.5) translateX(-16.66%) rotateY(25deg);
+}
